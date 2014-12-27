@@ -9,8 +9,8 @@ Steps to get this application running on a Mac:
 - Use homebrew to install Hadoop. Use this command-line: $ brew install hadoop. This link: http://shayanmasood.com/blog/how-to-setup-hadoop-on-mac-os-x-10-9-mavericks/ has detailed instructions on setting up Hadoop on a Mac.
 - Use homebrew to install Maven. Use this command-line: $ brew install maven
 - Clone and build the MongoHadoop connector source code by following instructions here: https://github.com/mongodb/mongo-hadoop
-- If you checked out version 1.3.1(using the command $ git checkout r1.3.1), the build should create a jar file in core/build/libs
-- Download the mongo-java-driver jar from here: http://central.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.0-rc1/
+- If you checked out version 1.3.1(using the command $ git checkout r1.3.1), the build should create a jar file in core/build/libs/mongo-hadoop-core-1.3.1.jar
+- Download the mongo-java-driver jar(mongo-java-driver-2.13.0-rc1.jar) from here: http://central.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.0-rc1/
 - With Hadoop 2.6.0, place these jars in the following location:
   - $HADOOP_HOME/libexec/share/hadoop/mapreduce/lib
 - If you used homebrew to install Hadoop 2.6.0, $HADOOP_HOME would be /usr/local/Cellar/hadoop/2.6.0
