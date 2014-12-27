@@ -11,10 +11,7 @@ Steps to get this application running on a Mac:
 - Clone and build the MongoHadoop connector source code by following instructions here: https://github.com/mongodb/mongo-hadoop
 - If you checked out version 1.3.1(using the command $ git checkout r1.3.1), the build should create a jar file in core/build/libs
 - Download the mongo-java-driver jar from here: http://central.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.0-rc1/
-- With Hadoop 2.6.0, I'm not sure where exactly these 2 jars need to be placed. I placed them in the following locations:
-  - $HADOOP_HOME/libexec/share/hadoop/hdfs
-  - $HADOOP_HOME/libexec/share/hadoop/hdfs/lib
-  - $HADOOP_HOME/libexec/share/hadoop/mapreduce
+- With Hadoop 2.6.0, place these jars in the following location:
   - $HADOOP_HOME/libexec/share/hadoop/mapreduce/lib
 - If you used homebrew to install Hadoop 2.6.0, $HADOOP_HOME would be /usr/local/Cellar/hadoop/2.6.0
 - Get the zips data into MongoDB using the following steps:
